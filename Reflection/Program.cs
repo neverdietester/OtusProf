@@ -8,7 +8,7 @@ class Program
     {
         F fInstance = F.Get();
 
-        // 3. Замер времени сериализации
+        //Замер времени сериализации
         int iterations = 1000;
         string serializedString = null;
 
@@ -24,7 +24,7 @@ class Program
         Console.WriteLine($"Сериализация: {serializedString}");
         Console.WriteLine($"Время на сериализацию (пользовательская): {stopwatch.ElapsedMilliseconds} мс");
 
-        // 7. Сериализация с использованием Newtonsoft.Json
+      
         stopwatch.Reset();
         stopwatch.Start();
 
@@ -39,7 +39,7 @@ class Program
         Console.WriteLine($"JSON Сериализация: {jsonString}");
         Console.WriteLine($"Время на сериализацию (Newtonsoft.Json): {stopwatch.ElapsedMilliseconds} мс");
 
-        // 9. Десериализация из строки
+        //Десериализация из строки
         stopwatch.Reset();
         stopwatch.Start();
 
@@ -54,7 +54,7 @@ class Program
         Console.WriteLine($"Десериализация: i1={deserializedInstance.i1}, i2={deserializedInstance.i2}, i3={deserializedInstance.i3}, i4={deserializedInstance.i4}, i5={deserializedInstance.i5}");
         Console.WriteLine($"Время на десериализацию (пользовательская): {stopwatch.ElapsedMilliseconds} мс");
 
-        // 11. Десериализация с использованием Newtonsoft.Json
+      
         stopwatch.Reset();
         stopwatch.Start();
 
