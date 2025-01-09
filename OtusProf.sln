@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallelism", "Parallelism\Parallelism.csproj", "{CFD4A419-4111-4E9D-B6CC-6B3257BA78A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multi-threaded project", "Multi-threaded project\Multi-threaded project.csproj", "{6075CBE3-ED35-45A6-95FC-C8753319477F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_patterns", "Design_patterns\Design_patterns.csproj", "{3325C95C-CC25-471B-A2DF-35C455147328}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{CFD4A419-4111-4E9D-B6CC-6B3257BA78A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFD4A419-4111-4E9D-B6CC-6B3257BA78A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFD4A419-4111-4E9D-B6CC-6B3257BA78A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6075CBE3-ED35-45A6-95FC-C8753319477F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6075CBE3-ED35-45A6-95FC-C8753319477F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6075CBE3-ED35-45A6-95FC-C8753319477F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6075CBE3-ED35-45A6-95FC-C8753319477F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3325C95C-CC25-471B-A2DF-35C455147328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3325C95C-CC25-471B-A2DF-35C455147328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3325C95C-CC25-471B-A2DF-35C455147328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3325C95C-CC25-471B-A2DF-35C455147328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
