@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtusProf", "OtusProf\OtusPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{BF19D8DB-A6BF-4645-B767-46993FE11FB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{C5D58732-3DBA-4FC2-8E6B-58108F1057D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BF19D8DB-A6BF-4645-B767-46993FE11FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF19D8DB-A6BF-4645-B767-46993FE11FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF19D8DB-A6BF-4645-B767-46993FE11FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D58732-3DBA-4FC2-8E6B-58108F1057D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D58732-3DBA-4FC2-8E6B-58108F1057D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D58732-3DBA-4FC2-8E6B-58108F1057D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D58732-3DBA-4FC2-8E6B-58108F1057D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
