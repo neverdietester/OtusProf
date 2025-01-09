@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.34031.81
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtusProf", "OtusProf\OtusProf.csproj", "{178E29B2-E335-4B1E-A21A-058847CEC3B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{BF19D8DB-A6BF-4645-B767-46993FE11FB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{178E29B2-E335-4B1E-A21A-058847CEC3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{178E29B2-E335-4B1E-A21A-058847CEC3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{178E29B2-E335-4B1E-A21A-058847CEC3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF19D8DB-A6BF-4645-B767-46993FE11FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF19D8DB-A6BF-4645-B767-46993FE11FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF19D8DB-A6BF-4645-B767-46993FE11FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF19D8DB-A6BF-4645-B767-46993FE11FB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
