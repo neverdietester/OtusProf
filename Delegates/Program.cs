@@ -16,10 +16,9 @@ class Program
         var walker = new DirectoryWalker();
         walker.FileFound += Walker_FileFound;
 
-        // Пример явно указанного пути
+       
         walker.Walk(@"C:\course");
 
-        // Пример коллекции для тестирования GetMax
         var items = new List<Item>
         {
             new Item { Name = "Item1", Value = 1.5f },

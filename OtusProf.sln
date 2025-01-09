@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{C5D58732-3DBA-4FC2-8E6B-58108F1057D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallelism", "Parallelism\Parallelism.csproj", "{CFD4A419-4111-4E9D-B6CC-6B3257BA78A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C5D58732-3DBA-4FC2-8E6B-58108F1057D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5D58732-3DBA-4FC2-8E6B-58108F1057D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5D58732-3DBA-4FC2-8E6B-58108F1057D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD4A419-4111-4E9D-B6CC-6B3257BA78A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD4A419-4111-4E9D-B6CC-6B3257BA78A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD4A419-4111-4E9D-B6CC-6B3257BA78A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD4A419-4111-4E9D-B6CC-6B3257BA78A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
