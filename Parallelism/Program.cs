@@ -10,7 +10,11 @@ namespace SpaceCounter
     {
         static async Task Main(string[] args)
         {
-            string[] filePaths = { "@\"C:\\course\"file1.txt"}; // Укажите ваши файлы
+            string[] filePaths = {
+                @"C:\course\file1.txt",
+                @"C:\course\file2.txt",
+                @"C:\course\file3.txt"}
+                ;
 
             // Параллельное чтение и подсчет пробелов в трех файлах
             Stopwatch stopwatch = new Stopwatch();
@@ -27,7 +31,7 @@ namespace SpaceCounter
 
             // Чтение всех файлов в папке и подсчет пробелов
             Console.WriteLine("Введите путь к папке для подсчета пробелов в файлах:");
-            string folderPath = Console.ReadLine();
+            string folderPath = @"C:\course";
 
             if (Directory.Exists(folderPath))
             {
