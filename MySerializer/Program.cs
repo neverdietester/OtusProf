@@ -31,7 +31,7 @@ class Program
         stopwatch.Restart();
         for (int i = 0; i < iterations; i++)
         {
-            var deserializedObj = CsvSerializer.Deserialize(csvString);
+            var deserializedObj = CsvSerializer.Deserialize<F>(csvString);
         }
         stopwatch.Stop();
         Console.WriteLine($"Время на десериализацию (CSV): {stopwatch.ElapsedMilliseconds} мс");

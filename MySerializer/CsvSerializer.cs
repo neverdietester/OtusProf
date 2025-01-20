@@ -1,22 +1,31 @@
 ﻿
 
+using System.Reflection;
+
 class CsvSerializer
 {
-    public static string Serialize(F obj)
+    public static string Serialize<T>(T obj)
     {
-        return $"{obj.i1},{obj.i2},{obj.i3},{obj.i4},{obj.i5}";
+        var properties = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance);
+        var values = properties.Select(prop => prop.GetValue(obj, null)?.ToString() ?? string.Empty);
+        return string.Join(",", values);
     }
 
-    public static F Deserialize(string csv)
+    public static T Deserialize<T>(string csv)
     {
         var values = csv.Split(',');
-        return new F()
+        var obj = Activator.CreateInstance<T>();
+        var properties = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance);
+
+        for (int i = 0; i < properties.Length; i++)
         {
-            i1 = int.Parse(values[0]),
-            i2 = int.Parse(values[1]),
-            i3 = int.Parse(values[2]),
-            i4 = int.Parse(values[3]),
-            i5 = int.Parse(values[4])
-        };
+            if (i < values.Length)
+            {
+                var value = Convert.ChangeType(values[i], properties[i].PropertyType);
+                properties[i].SetValue(obj, value);
+            }
+        }
+
+        return obj;
     }
 }
